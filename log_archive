@@ -1,0 +1,6 @@
+#!/bin/bash
+cd
+mkdir log-archive 
+log_archive=log-archive
+tail -f -h log_archive
+tar log_archive
